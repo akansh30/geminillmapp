@@ -15,7 +15,7 @@ def get_gemini_response(input,image):
 
 #intialize our streamlit app
 
-st.set_page_config(page_title="Grmini Image DEMO")
+st.set_page_config(page_title="Gemini Image DEMO")
 
 st.header("GEMINI APPLICATION")
 input=st.text_input("Input Prompt: ",key="input")
